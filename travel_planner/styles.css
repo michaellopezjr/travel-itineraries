@@ -1,0 +1,82 @@
+/* styles.css */
+
+body {
+    font-family: 'Georgia', serif; /* A more relaxed font */
+    margin: 20px;
+    background-color: #f9f3e5; /* Soft beige background */
+    color: #333;
+}
+
+h1, h2 {
+    color: #7d5a3e; /* Earthy brown color */
+    font-family: 'Garamond', serif; /* Elegant font */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+table, th, td {
+    border: 1px solid #d1c6b3; /* Light brown border */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #a8d8b9; /* Soft green for header */
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f0e4d7; /* Light beige for even rows */
+}
+
+tr:hover {
+    background-color: #e3c9a8; /* Highlight color on hover */
+}
+
+form {
+    margin: 20px 0;
+    background-color: #fff; /* White background for forms */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+input[type="text"], input[type="date"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #d1c6b3; /* Light brown border */
+    border-radius: 4px;
+    font-family: 'Georgia', serif; /* Consistent font */
+}
+
+input[type="submit"] {
+    background-color: #7d5a3e; /* Earthy brown button */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Garamond', serif; /* Elegant font */
+}
+
+input[type="submit"]:hover {
+    background-color: #5a3e29; /* Darker brown on hover */
+}
+
+a {
+    color: #7d5a3e; /* Earthy brown for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
